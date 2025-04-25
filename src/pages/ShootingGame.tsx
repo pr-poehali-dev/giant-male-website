@@ -288,23 +288,9 @@ const ShootingGame = () => {
       <div className="absolute inset-0 z-0">
         <div 
           className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-yellow-500/20 to-transparent animate-[scanline_4s_linear_infinite]"
-          style={{
-            animation: 'scanline 4s linear infinite',
-            '@keyframes scanline': {
-              '0%': { top: '0%' },
-              '100%': { top: '100%' }
-            }
-          }}
         ></div>
         <div 
-          className="absolute top-0 left-0 h-full w-1 bg-gradient-to-b from-transparent via-yellow-500/20 to-transparent animate-[scanline-h_5s_linear_infinite]"
-          style={{
-            animation: 'scanline-h 5s linear infinite',
-            '@keyframes scanline-h': {
-              '0%': { left: '0%' },
-              '100%': { left: '100%' }
-            }
-          }}
+          className="absolute top-0 left-0 h-full w-1 bg-gradient-to-b from-transparent via-yellow-500/20 to-transparent animate-[scanlineH_5s_linear_infinite]"
         ></div>
       </div>
       
